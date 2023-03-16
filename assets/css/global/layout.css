@@ -56,26 +56,19 @@
   margin: 144px 0;
 }
 
-/* header {
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-style: normal;
-  line-height: 36px;
-  font-weight: 600;
-  text-align: center;
-  padding: 8px 0;
+.section-padding-sm {
+  padding: 32px 0;
 }
 
-footer {
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-style: normal;
-  line-height: 36px;
-  font-weight: 600;
-  text-align: center;
-  background-color: #44403c;
-  color: #ffffff;
-  padding-top: 16px;
-  padding-bottom: 16px;
+.section-padding,
+.section-padding-md {
+  padding: 48px 0;
 }
-*/
+
+.section-padding-lg {
+  padding: 96px 0;
+}
+
+.section-padding-xl {
+  padding: 144px 0;
+}

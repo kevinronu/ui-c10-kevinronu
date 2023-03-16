@@ -59,11 +59,11 @@
 }
 
 .button--primary:hover {
-  background-color: var(--primary-darker);
+  background-color: var(--primary-dark);
 }
 
 .button--primary:active {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-darker);
 }
 
 .button--primary:focus {
@@ -85,11 +85,11 @@
 }
 
 .button--secondary:hover {
-  background-color: var(--secondary-darker);
+  background-color: var(--secondary-dark);
 }
 
 .button--secondary:active {
-  background-color: var(--secondary-dark);
+  background-color: var(--secondary-darker);
 }
 
 .button--secondary:focus {

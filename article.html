@@ -8,18 +8,38 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <nav>
-          <ul class="container container--flex">
-            Tu Nombre
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
+    <header class="header">
+      <div class="container-md">
+        <nav class="navbar">
+          <a
+            href="/index.html"
+            class="navbar__logo heading-md semibold text-decoration-none"
+          >
+            <span>Kevin Robles</span>
+          </a>
+          <ul class="navbar__links list-style-none">
+            <li>
+              <a href="#" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary button--sm text-decoration-none ml-4"
+              >
+                Contact Me
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
+
     <section class="section-md">
       <div class="article container-md">
         <h1>Lessons after 4 weeks learning to code</h1>
@@ -85,6 +105,14 @@
         </p>
       </div>
     </section>
-    <footer>FOOTER</footer>
+
+    <footer class="footer">
+      <div class="container-md footer__content">
+        <h2 class="heading-xl semibold footer__content__title">
+          Can I help you?
+        </h2>
+        <button class="button button--primary">Get in touch</button>
+      </div>
+    </footer>
   </body>
 </html>
