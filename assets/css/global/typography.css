@@ -7,9 +7,9 @@
 body {
   font-size: 1rem;
   line-height: 2rem;
-  font-family: var(--font-primary);
-  color: var(--color-others-text);
+  color: var(--text);
   background-color: var(--background);
+  font-family: var(--font-primary);
 }
 
 h1,
@@ -76,7 +76,7 @@ h6 {
 
 .heading-sm {
   font-size: 1.5rem;
-  line-height: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .heading-xs {
