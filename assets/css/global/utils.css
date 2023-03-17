@@ -81,3 +81,7 @@
     brightness(98%) contrast(87%);
   /* Adjust these values accordingly */
 }
+
+.border-radius-1 {
+  border-radius: 0.5rem;
+}
