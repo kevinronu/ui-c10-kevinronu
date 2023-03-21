@@ -23,16 +23,6 @@
   tex
 } */
 
-.article-summary-three-rows__content {
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, 1fr); */
-  /* Se rompe en 768 con mas de 229 */
-  grid-template-columns: repeat(auto-fill, minmax(min(237px, 100%), 1fr));
-  gap: 16px;
-  text-align: center;
-  margin: 1rem 0;
-}
-
 .article {
   font-size: 18px;
   color: var(--color-others-text);
