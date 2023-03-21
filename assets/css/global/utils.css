@@ -77,11 +77,6 @@
 .icon {
   /* width: 1.6rem; */
   height: 2rem;
-  filter: invert(56%) sepia(59%) saturate(3573%) hue-rotate(125deg)
-    brightness(98%) contrast(87%);
-  /* Adjust these values accordingly */
-}
-
-.border-radius-1 {
-  border-radius: 0.5rem;
+  filter: invert(67%) sepia(16%) saturate(5413%) hue-rotate(113deg)
+    brightness(86%) contrast(87%);
 }
