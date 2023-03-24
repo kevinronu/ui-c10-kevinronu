@@ -17,7 +17,6 @@
 
 .button--sm {
   font-size: 0.875rem;
-  /* line-height: 0.875rem; */
   padding: 0.5rem 0.75rem;
 }
 
@@ -77,6 +76,32 @@
   opacity: 0.6;
   cursor: default;
   background-color: var(--primary);
+}
+
+/* button primary lighter */
+
+.button--primary-lighter {
+  background-color: var(--primary-lighter);
+  color: var(--text);
+}
+
+.button--primary-lighter:hover {
+  background-color: var(--primary-light);
+}
+
+.button--primary-lighter:active {
+  background-color: var(--primary);
+}
+
+.button--primary-lighter:focus {
+  outline: 3px solid var(--info);
+  outline-offset: 1px;
+}
+
+.button--primary-lighter:disabled {
+  opacity: 0.6;
+  cursor: default;
+  background-color: var(--primary-lighter);
 }
 
 /* button secondary */
