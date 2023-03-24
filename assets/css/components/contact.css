@@ -7,44 +7,15 @@
   margin-top: 0.25rem;
 }
 
-/* .about-summary__header,
-.about-hobbies__header {
-  margin-bottom: 1rem;
-  text-align: center;
-} */
-
 .contact-form {
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(287px, 100%), 1fr));
-  grid-template-areas:
-    "input-first-name input-last-name"
-    "input-email input-phone"
-    "input-check input-check"
-    "input-button input-button";
   gap: 2rem;
-  padding: 0; */
 }
 
 .contact-form__input {
   width: 304px;
-  margin-bottom: 2rem;
 }
-
-/* .contact-form__checkbox,
-.contact-form__button {
-  width: 640px;
-} */
-
-/* .about-summary__card {
-  display: flex;
-  gap: 1rem;
-
-  padding: 1rem;
-  flex-direction: row;
-} */
