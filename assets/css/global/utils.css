@@ -75,3 +75,8 @@
 .bg-color-background-dark {
   background-color: var(--background-dark);
 }
+
+.test {
+  justify-content: center;
+  align-items: center;
+}

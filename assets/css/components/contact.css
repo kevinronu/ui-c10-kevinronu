@@ -19,3 +19,14 @@
 .contact-form__input {
   width: 304px;
 }
+
+.contact-form__checkbox {
+  width: 100%;
+}
+
+@media only screen and (max-width: 430px) {
+  .contact-form__input,
+  .contact-form__checkbox {
+    width: 343px;
+  }
+}
