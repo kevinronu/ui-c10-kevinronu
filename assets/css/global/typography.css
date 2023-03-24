@@ -34,12 +34,12 @@ h6 {
 .text,
 .text-md {
   font-size: 1rem;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .text-sm {
   font-size: 0.875rem;
-  line-height: 1.5rem;
+  line-height: 1.3125rem;
 }
 
 .text-xs {

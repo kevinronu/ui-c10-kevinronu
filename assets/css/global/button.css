@@ -17,11 +17,13 @@
 
 .button--sm {
   font-size: 0.875rem;
+  /* line-height: 0.875rem; */
   padding: 0.5rem 0.75rem;
 }
 
 .button--lg {
   font-size: 1.125rem;
+  /* line-height: 1.125rem; */
   padding: 0.875rem 1.5rem;
 }
 
