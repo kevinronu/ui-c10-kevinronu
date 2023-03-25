@@ -1,16 +1,22 @@
-.calencli-summary {
+.calencli-summary,
+.features__content,
+.calencli-team__members,
+.calencli-summary__background-icon {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* podria ser center debajo de 1024px */
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
+  padding: 0;
+}
+
+.calencli-summary {
   padding: 0;
 }
 
 .calencli-summary__content {
   padding-left: 2rem;
   max-width: 502px;
-  /* arreglar por debajo de 1024px */
 }
 
 .calencli-summary__content p {
@@ -18,24 +24,21 @@
   margin-bottom: 2.5rem;
 }
 
+.calencli-summary__content a {
+  max-width: 270px;
+}
+
 #calencli-image {
   max-height: 327px;
-  /* arreglar por debajo de 1024px */
   max-width: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   border-radius: 0.5rem;
 }
 
 .features,
-.team {
+.calencli-team {
   padding: 0px;
-}
-
-.features__content,
-.calencli-team__members {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: center;
 }
 
 .features_header,
@@ -45,17 +48,13 @@
 
 .features__section {
   max-width: 320px;
-  /* Cambiar esto en mobile */
 }
 
 .calencli-summary__background-icon {
+  padding: 0;
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--gray-100);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .calencli-summary__background-icon svg {
@@ -63,12 +62,6 @@
   height: 1.5rem;
   fill: var(--black);
 }
-
-/* .calencli-team__members {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-} */
 
 .calencli-team__member {
   max-width: 320px;
@@ -84,8 +77,25 @@
   margin-bottom: 0.5625rem;
 }
 
-@media only screen and (max-width: 430px) {
-  .features__section {
-    max-width: 430px;
+.avatar {
+  height: 256px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .calencli-team__header,
+  .features_header {
+    text-align: center;
+  }
+
+  .calencli-summary__content {
+    padding-left: 0;
+    max-width: 270px;
+  }
+
+  #calencli-image {
+    max-height: 311px;
   }
 }
