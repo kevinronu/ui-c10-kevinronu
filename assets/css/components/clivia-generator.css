@@ -1,0 +1,97 @@
+.clivia-generator-summary,
+.clivia-generator-features__content,
+.clivia-generator-team__members,
+.clivia-generator-summary__background-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.clivia-generator-summary__content {
+  padding-left: 2rem;
+  max-width: 502px;
+}
+
+.clivia-generator-summary__content p {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.clivia-generator-summary__content a {
+  max-width: 270px;
+}
+
+#clivia-generator-image {
+  max-height: 327px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.clivia-generator-features,
+.clivia-generator-team {
+  padding: 0px;
+  justify-content: center;
+}
+
+.clivia-generator-features_header,
+.clivia-generator-team__header {
+  margin-bottom: 3rem;
+}
+
+.clivia-generator-features__section {
+  max-width: 320px;
+}
+
+.clivia-generator-summary__background-icon {
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--gray-100);
+}
+
+.clivia-generator-summary__background-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--black);
+}
+
+.clivia-generator-team__member {
+  max-width: 320px;
+}
+
+.clivia-generator-social-links svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.clivia-generator-member-name {
+  margin-top: 1rem;
+  margin-bottom: 0.5625rem;
+}
+
+.clivia-generator-avatar {
+  height: 256px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .clivia-generator-team__header,
+  .clivia-generator-features_header {
+    text-align: center;
+  }
+
+  .clivia-generator-summary__content {
+    padding-left: 0;
+    max-width: 270px;
+  }
+
+  #clivia-generator-image {
+    max-height: 311px;
+  }
+}
