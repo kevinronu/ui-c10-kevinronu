@@ -1,7 +1,7 @@
-.calencli-summary,
-.calencli-features__content,
-.calencli-team__members,
-.calencli-summary__background-icon {
+.clin-boards-summary,
+.clin-boards-features__content,
+.clin-boards-team__members,
+.clin-boards-summary__background-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,70 +10,69 @@
   padding: 0;
 }
 
-.calencli-summary__content {
-  padding-left: 2rem;
-  max-width: 502px;
+.clin-boards-summary__content {
+  max-width: 100%;
 }
 
-.calencli-summary__content p {
+.clin-boards-summary__content p {
   margin-top: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
-.calencli-summary__content a {
+.clin-boards-summary__content a {
   max-width: 270px;
 }
 
-#calencli-image {
+#clin-boards-image {
   max-height: 327px;
   max-width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
 }
 
-.calencli-features,
-.calencli-team {
+.clin-boards-features,
+.clin-boards-team {
   padding: 0px;
   justify-content: center;
 }
 
-.calencli-features_header,
-.calencli-team__header {
+.clin-boards-features_header,
+.clin-boards-team__header {
   margin-bottom: 3rem;
 }
 
-.calencli-features__section {
+.clin-boards-features__section {
   max-width: 320px;
 }
 
-.calencli-summary__background-icon {
+.clin-boards-summary__background-icon {
   padding: 0;
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--gray-100);
 }
 
-.calencli-summary__background-icon svg {
+.clin-boards-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
   fill: var(--black);
 }
 
-.calencli-team__member {
+.clin-boards-team__member {
   max-width: 320px;
 }
 
-.calencli-social-links svg {
+.clin-boards-social-links svg {
   width: 1.125rem;
   height: 1.125rem;
 }
 
-.calencli-member-name {
+.clin-boards-member-name {
   margin-top: 1rem;
   margin-bottom: 0.5625rem;
 }
 
-.calencli-avatar {
+.clin-boards-avatar {
   height: 256px;
   width: 100%;
   object-fit: cover;
@@ -81,17 +80,16 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .calencli-team__header,
-  .calencli-features_header {
+  .clin-boards-team__header,
+  .clin-boards-features_header {
     text-align: center;
   }
 
-  .calencli-summary__content {
-    padding-left: 0;
-    max-width: 270px;
+  .clin-boards-summary__content {
+    padding: 0 0.5rem;
   }
 
-  #calencli-image {
+  #clin-boards-image {
     max-height: 311px;
   }
 }
