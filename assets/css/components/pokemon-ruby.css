@@ -1,7 +1,7 @@
-.calencli-summary,
-.calencli-features__content,
-.calencli-team__members,
-.calencli-summary__background-icon {
+.pokemon-ruby-summary,
+.pokemon-ruby-features__content,
+.pokemon-ruby-team__members,
+.pokemon-ruby-summary__background-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,74 +10,74 @@
   padding: 0;
 }
 
-.calencli-summary {
+.pokemon-ruby-summary {
   padding: 0;
 }
 
-.calencli-summary__content {
+.pokemon-ruby-summary__content {
   padding-left: 2rem;
   max-width: 502px;
 }
 
-.calencli-summary__content p {
+.pokemon-ruby-summary__content p {
   margin-top: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
-.calencli-summary__content a {
+.pokemon-ruby-summary__content a {
   max-width: 270px;
 }
 
-#calencli-image {
+#pokemon-ruby-image {
   max-height: 327px;
   max-width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
 }
 
-.calencli-features,
-.calencli-team {
+.pokemon-ruby-features,
+.pokemon-ruby-team {
   padding: 0px;
   justify-content: center;
 }
 
-.calencli-features_header,
-.calencli-team__header {
+.pokemon-ruby-features_header,
+.pokemon-ruby-team__header {
   margin-bottom: 3rem;
 }
 
-.calencli-features__section {
+.pokemon-ruby-features__section {
   max-width: 320px;
 }
 
-.calencli-summary__background-icon {
+.pokemon-ruby-summary__background-icon {
   padding: 0;
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--gray-100);
 }
 
-.calencli-summary__background-icon svg {
+.pokemon-ruby-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
   fill: var(--black);
 }
 
-.calencli-team__member {
+.pokemon-ruby-team__member {
   max-width: 320px;
 }
 
-.calencli-social-links svg {
+.pokemon-ruby-social-links svg {
   width: 1.125rem;
   height: 1.125rem;
 }
 
-.calencli-member-name {
+.pokemon-ruby-member-name {
   margin-top: 1rem;
   margin-bottom: 0.5625rem;
 }
 
-.calencli-avatar {
+.pokemon-ruby-avatar {
   height: 256px;
   width: 100%;
   object-fit: cover;
@@ -85,17 +85,17 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .calencli-team__header,
-  .calencli-features_header {
+  .pokemon-ruby-team__header,
+  .pokemon-ruby-features_header {
     text-align: center;
   }
 
-  .calencli-summary__content {
+  .pokemon-ruby-summary__content {
     padding-left: 0;
     max-width: 270px;
   }
 
-  #calencli-image {
+  #pokemon-ruby-image {
     max-height: 311px;
   }
 }
