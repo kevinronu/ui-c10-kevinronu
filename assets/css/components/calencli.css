@@ -1,0 +1,91 @@
+.calencli-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* podria ser center debajo de 1024px */
+  gap: 2rem;
+  padding: 0;
+}
+
+.calencli-summary__content {
+  padding-left: 2rem;
+  max-width: 502px;
+  /* arreglar por debajo de 1024px */
+}
+
+.calencli-summary__content p {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+#calencli-image {
+  max-height: 327px;
+  /* arreglar por debajo de 1024px */
+  max-width: 100%;
+  /* object-fit: cover; */
+  border-radius: 0.5rem;
+}
+
+.features,
+.team {
+  padding: 0px;
+}
+
+.features__content,
+.calencli-team__members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.features_header,
+.calencli-team__header {
+  margin-bottom: 3rem;
+}
+
+.features__section {
+  max-width: 320px;
+  /* Cambiar esto en mobile */
+}
+
+.calencli-summary__background-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--gray-100);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calencli-summary__background-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--black);
+}
+
+/* .calencli-team__members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+} */
+
+.calencli-team__member {
+  max-width: 320px;
+}
+
+.social-links svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.member-name {
+  margin-top: 1rem;
+  margin-bottom: 0.5625rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .features__section {
+    max-width: 430px;
+  }
+}
