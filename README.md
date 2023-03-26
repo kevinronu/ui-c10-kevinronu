@@ -2,7 +2,7 @@
 
 This is my blog.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/10ec23ea-9e85-4551-ac0a-d51fa38f9845/deploy-status)](https://app.netlify.com/sites/kevin-test-rn/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/10ec23ea-9e85-4551-ac0a-d51fa38f9845/deploy-status)](https://app.netlify.com/sites/kevinronu/deploys)
 
 ## Contributing
 
