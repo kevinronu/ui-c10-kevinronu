@@ -51,8 +51,8 @@
   /* object-position: 50% 50%; */
 }
 
-.about-hobbies__image--center {
-  object-position: 50% 50%;
+.about-hobbies__image--top {
+  object-position: 0% 0%;
 }
 
 .about-hobbies__paragraph {
