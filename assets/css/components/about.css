@@ -48,6 +48,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
+  object-position: 50% 0%;
 }
 
 .about-hobbies__paragraph {
