@@ -52,64 +52,64 @@ h6 {
 } */
 
 .text-xl {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   line-height: 1.875rem;
 }
 
 .text-lg {
-  font-size: 1.125rem;
+  font-size: 1.125em;
   line-height: 1.6875rem;
 }
 
 .text,
 .text-md {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5rem;
 }
 
 .text-sm {
-  font-size: 0.875rem;
+  font-size: 0.875em;
   line-height: 1.3125rem;
 }
 
 .text-xs {
-  font-size: 0.75rem;
+  font-size: 0.75em;
   line-height: 1.125rem;
 }
 
 /* Headings */
 
 .heading-3xl {
-  font-size: 4.5rem;
+  font-size: 4.5em;
   line-height: 1rem;
 }
 
 .heading-2xl {
-  font-size: 3.75rem;
+  font-size: 3.75em;
   line-height: 3.75rem;
 }
 
 .heading-xl {
-  font-size: 3rem;
+  font-size: 3em;
   line-height: 3.625rem;
 }
 
 .heading-lg {
-  font-size: 2.25rem;
+  font-size: 2.25em;
   line-height: 2.6875rem;
 }
 
 .heading-md {
-  font-size: 1.875rem;
+  font-size: 1.875em;
   line-height: 2.25rem;
 }
 
 .heading-sm {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   line-height: 1.8rem;
 }
 
 .heading-xs {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   line-height: 1.2rem;
 }

@@ -2,7 +2,7 @@
 .button {
   border: none;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1rem;
   font-weight: 500;
   text-transform: capitalize;
@@ -16,12 +16,12 @@
 }
 
 .button--sm {
-  font-size: 0.875rem;
+  font-size: 0.875em;
   padding: 0.5rem 0.75rem;
 }
 
 .button--lg {
-  font-size: 1.125rem;
+  font-size: 1.125em;
   /* line-height: 1.125rem; */
   padding: 0.875rem 1.5rem;
 }

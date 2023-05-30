@@ -24,19 +24,19 @@
 } */
 
 .article {
-  font-size: 18px;
+  font-size: 1.125em;
   color: var(--color-others-text);
 }
 
 .article h1 {
-  font-size: 32px;
+  font-size: 2em;
   line-height: 40px;
   font-weight: 400;
   margin-bottom: 32px;
 }
 
 .article h2 {
-  font-size: 30px;
+  font-size: 1.875em;
   line-height: 40px;
   font-weight: 400;
   margin-top: 56px;
@@ -83,7 +83,7 @@
 .article figcaption {
   margin-top: 16px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
 }
 
