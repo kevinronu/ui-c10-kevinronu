@@ -83,10 +83,9 @@ body {
   color: var(--secondary-lighter);
 }
 
-html {
-  user-select: var(--primary);
-  -webkit-tap-highlight-color: var(--primary);
-  tap-highlight-color: var(--primary);
+* {
+  user-select: green;
+  -webkit-tap-highlight-color: green;
 }
 
 /* ::-webkit-selection {
