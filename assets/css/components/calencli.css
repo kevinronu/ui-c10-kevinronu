@@ -50,17 +50,22 @@
   padding: 0;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--gray-100);
+  background-color: var(--background);
 }
 
 .calencli-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--black);
+  fill: var(--fill-dark);
 }
 
 .calencli-team__member {
   max-width: 320px;
+}
+
+.calencli-social-links {
+  display: flex;
+  gap: 1rem;
 }
 
 .calencli-social-links svg {
