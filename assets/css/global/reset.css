@@ -83,6 +83,24 @@ body {
   color: var(--secondary-lighter);
 }
 
+html {
+  user-select: var(--primary);
+  -webkit-tap-highlight-color: var(--primary);
+  tap-highlight-color: var(--primary);
+}
+
+/* ::-webkit-selection {
+  background: var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary-lighter);
+}
+
+::-moz-selection {
+  background: var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary-lighter);
+} */
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
