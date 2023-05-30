@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kevin Robles | Blog</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    />
   </head>
   <body>
     <header class="header">
@@ -21,12 +32,12 @@
 
             <!-- option 1 -->
             <label for="menu-mobile" id="toggle-close">
-              <i class="ri-close-fill ri-sm"></i>
+              <svg class="header-svg"><use xlink:href="#close" /></svg>
             </label>
 
             <!-- option 2 -->
             <label for="menu-mobile" id="toggle-open">
-              <i class="ri-menu-fill ri-sm"></i>
+              <svg class="header-svg"><use xlink:href="#menu" /></svg>
             </label>
           </a>
 
@@ -168,5 +179,20 @@
         </a>
       </div>
     </footer>
+
+    <div hidden>
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="menu" viewBox="0 0 24 24">
+          <path d="M3 4h18v2H3V4Zm0 7h18v2H3v-2Zm0 7h18v2H3v-2Z" />
+        </symbol>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="close" viewBox="0 0 24 24">
+          <path
+            d="m12 10.586l4.95-4.95l1.415 1.415l-4.95 4.95l4.95 4.95l-1.415 1.414l-4.95-4.95l-4.95 4.95l-1.413-1.415l4.95-4.95l-4.95-4.95L7.05 5.638l4.95 4.95Z"
+          />
+        </symbol>
+      </svg>
+    </div>
   </body>
 </html>

@@ -1,9 +1,4 @@
 .header {
-  /* position: sticky;
-  top: 0;
-  right: 0;
-  left: 0; */
-
   background-color: var(--background-darker);
 }
 
@@ -47,6 +42,11 @@
 #toggle-open,
 #toggle-close {
   display: none;
+}
+
+.header-svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 @media only screen and (max-width: 430px) {
