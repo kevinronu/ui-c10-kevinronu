@@ -63,6 +63,11 @@
   max-width: 320px;
 }
 
+.clivia-generator-social-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .clivia-generator-social-links svg {
   width: 1.125rem;
   height: 1.125rem;
