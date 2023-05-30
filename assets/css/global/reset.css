@@ -85,7 +85,7 @@ body {
 
 * {
   user-select: green;
-  -webkit-tap-highlight-color: green;
+  /* -webkit-tap-highlight-color: green; */
 }
 
 /* ::-webkit-selection {
