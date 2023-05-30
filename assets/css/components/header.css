@@ -44,6 +44,11 @@
   display: none;
 }
 
+.container-toggle-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media only screen and (max-width: 430px) {
   /* agregar clases exclusivas para viewports de 430x de screem */
 
