@@ -12,6 +12,15 @@
 .portfolio-summary__card {
   background-color: var(--background-lighter);
   padding: 1.5rem;
+  position: relative;
+}
+
+.portfolio-card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .portfolio-summary__icons {
