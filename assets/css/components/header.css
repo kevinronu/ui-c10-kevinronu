@@ -100,7 +100,7 @@
     top: 0.3rem;
     right: 0.75rem;
 
-    color: var(--secondary-darker);
+    color: var(--background-dark-mode-darker);
     transition: opacity 1s linear;
   }
 
@@ -127,5 +127,12 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #toggle-open,
+  #toggle-close {
+    color: var(--background-dark);
   }
 }
