@@ -62,6 +62,11 @@
   max-width: 320px;
 }
 
+.clin-boards-social-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .clin-boards-social-links svg {
   width: 1.125rem;
   height: 1.125rem;
