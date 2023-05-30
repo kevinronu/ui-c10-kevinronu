@@ -133,6 +133,6 @@
 @media (prefers-color-scheme: dark) {
   #toggle-open,
   #toggle-close {
-    color: var(--background-dark);
+    color: var(--background-lighter);
   }
 }
