@@ -30,26 +30,25 @@ em {
   color: inherit;
 }
 
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
 body {
   font-size: 100%;
   line-height: 1.5;
   color: var(--text);
   background-color: var(--background);
   font-family: var(--font-primary);
-  /* hyphens: auto;
-  font-smooth: always; */
+  /* hyphens: auto; */
+  font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-primary);
-} */
 
 .text-xl {
   font-size: 1.25em;
