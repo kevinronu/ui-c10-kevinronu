@@ -83,16 +83,6 @@ body {
   color: var(--secondary-lighter);
 }
 
-::-webkit-selection {
-  background-color: var(--primary);
-  color: var(--secondary-lighter);
-}
-
-::-moz-selection {
-  background-color: var(--primary);
-  color: var(--secondary-lighter);
-}
-
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
