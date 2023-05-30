@@ -107,6 +107,7 @@
   --warning: var(--yellow-300);
   --success: var(--green-400);
   --success-dark: var(--green-500);
+  --fill-dark: var(--black);
   --info: var(--blue-400);
   --text: var(--black);
   --text-high-contrast: var(--saturated-black);
@@ -140,5 +141,6 @@
     --background: var(--background-dark-mode);
     --background-dark: var(--background-dark-mode-dark);
     --background-darker: var(--background-dark-mode-darker);
+    --fill-dark: var(--white);
   }
 }

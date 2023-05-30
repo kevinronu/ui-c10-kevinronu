@@ -34,7 +34,7 @@
 .portfolio-summary__background-icon {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--gray-100);
+  background-color: var(--background);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,7 +44,7 @@
 .portfolio-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--black);
+  fill: var(--fill-dark);
 }
 
 .portfolio-summary__card-content {
