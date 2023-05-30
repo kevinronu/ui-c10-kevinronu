@@ -75,30 +75,14 @@ svg {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  /* line-height: 1.5; */
+  line-height: 1.5;
+  -webkit-tap-highlight-color: var(--primary);
 }
 
 ::selection {
   background-color: var(--primary);
   color: var(--secondary-lighter);
 }
-
-* {
-  user-select: green;
-  /* -webkit-tap-highlight-color: green; */
-}
-
-/* ::-webkit-selection {
-  background: var(--primary);
-  background-color: var(--primary);
-  color: var(--secondary-lighter);
-}
-
-::-moz-selection {
-  background: var(--primary);
-  background-color: var(--primary);
-  color: var(--secondary-lighter);
-} */
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
