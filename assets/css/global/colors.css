@@ -27,6 +27,7 @@
   --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
+
   --pink-50: #fdf2f8;
   --pink-100: #fce7f3;
   --pink-200: #fbcfe8;
@@ -37,17 +38,16 @@
   --pink-700: #be185d;
   --pink-800: #9d174d;
   --pink-900: #831843;
-
-  --pink-dark-mode-50: #3f0d23;
-  --pink-dark-mode-100: #57103c;
-  --pink-dark-mode-200: #6d1855;
-  --pink-dark-mode-300: #83256f;
-  --pink-dark-mode-400: #993e89;
-  --pink-dark-mode-500: #af579f;
-  --pink-dark-mode-600: #c46fb2;
-  --pink-dark-mode-700: #da88c4;
-  --pink-dark-mode-800: #f0a1d8;
-  --pink-dark-mode-900: #f8b9e8;
+  --pink-dark-mode-50: #1f0a11;
+  --pink-dark-mode-100: #3e1423;
+  --pink-dark-mode-200: #5d1e34;
+  --pink-dark-mode-300: #7c2846;
+  --pink-dark-mode-400: #9b3257;
+  --pink-dark-mode-500: #ba3c69;
+  --pink-dark-mode-600: #d9477b;
+  --pink-dark-mode-700: #f6518d;
+  --pink-dark-mode-800: #ff6da2;
+  --pink-dark-mode-900: #ff87b6;
 
   --stone-50: #fafaf9;
   --stone-100: #f5f5f4;
@@ -59,17 +59,16 @@
   --stone-700: #393939;
   --stone-800: #282828;
   --stone-900: #171716;
-
-  --stone-dark-mode-50: #282828;
-  --stone-dark-mode-100: #393939;
-  --stone-dark-mode-200: #4c4c4c;
-  --stone-dark-mode-300: #606060;
-  --stone-dark-mode-400: #737373;
-  --stone-dark-mode-500: #868686;
-  --stone-dark-mode-600: #999999;
-  --stone-dark-mode-700: #b8b8b7;
-  --stone-dark-mode-800: #cccccc;
-  --stone-dark-mode-900: #e1e1e0;
+  --stone-dark-mode-50: #131312;
+  --stone-dark-mode-100: #262524;
+  --stone-dark-mode-200: #393837;
+  --stone-dark-mode-300: #4d4c4a;
+  --stone-dark-mode-400: #60605d;
+  --stone-dark-mode-500: #737370;
+  --stone-dark-mode-600: #868683;
+  --stone-dark-mode-700: #999997;
+  --stone-dark-mode-800: #acaca9;
+  --stone-dark-mode-900: #bfbfbe;
 
   --red-50: #fef2f2;
   --red-100: #fee2e2;
@@ -81,6 +80,17 @@
   --red-700: #b91c1c;
   --red-800: #991b1b;
   --red-900: #7f1d1d;
+  --red-dark-mode-50: #1f0a0a;
+  --red-dark-mode-100: #3e1414;
+  --red-dark-mode-200: #5d1e1e;
+  --red-dark-mode-300: #7c2828;
+  --red-dark-mode-400: #9b3232;
+  --red-dark-mode-500: #ba3c3c;
+  --red-dark-mode-600: #d94646;
+  --red-dark-mode-700: #f65151;
+  --red-dark-mode-800: #ff6c6c;
+  --red-dark-mode-900: #ff8787;
+
   --yellow-50: #fffbeb;
   --yellow-100: #fef3c7;
   --yellow-200: #fde68a;
@@ -91,6 +101,17 @@
   --yellow-700: #b45309;
   --yellow-800: #92400e;
   --yellow-900: #78350f;
+  --yellow-dark-mode-50: #1f1a11;
+  --yellow-dark-mode-100: #3e3623;
+  --yellow-dark-mode-200: #5d512f;
+  --yellow-dark-mode-300: #7c6d3b;
+  --yellow-dark-mode-400: #9b8947;
+  --yellow-dark-mode-500: #baa553;
+  --yellow-dark-mode-600: #d9c15f;
+  --yellow-dark-mode-700: #f8dd6b;
+  --yellow-dark-mode-800: #ffea77;
+  --yellow-dark-mode-900: #ffe784;
+
   --green-50: #f5fcf8;
   --green-100: #e4faed;
   --green-200: #ccfae1;
@@ -101,6 +122,17 @@
   --green-700: #2a5f38;
   --green-800: #1b3c23;
   --green-900: #09201b;
+  --green-dark-mode-50: #0e1811;
+  --green-dark-mode-100: #1c3022;
+  --green-dark-mode-200: #2a482f;
+  --green-dark-mode-300: #386f3d;
+  --green-dark-mode-400: #46884b;
+  --green-dark-mode-500: #54a159;
+  --green-dark-mode-600: #62b066;
+  --green-dark-mode-700: #70c772;
+  --green-dark-mode-800: #7edd7f;
+  --green-dark-mode-900: #8cf48d;
+
   --blue-50: #eff6ff;
   --blue-100: #dbeafe;
   --blue-200: #bfdbfe;
@@ -111,6 +143,17 @@
   --blue-700: #1d4ed8;
   --blue-800: #1e40af;
   --blue-900: #1e3a8a;
+  --blue-dark-mode-50: #0e1621;
+  --blue-dark-mode-100: #1c2c42;
+  --blue-dark-mode-200: #2a425e;
+  --blue-dark-mode-300: #386778;
+  --blue-dark-mode-400: #467e92;
+  --blue-dark-mode-500: #5484ac;
+  --blue-dark-mode-600: #6289c5;
+  --blue-dark-mode-700: #709fd7;
+  --blue-dark-mode-800: #7fb5e8;
+  --blue-dark-mode-900: #8dbafd;
+
   --black: #0f0f0f;
   --black-secondary: #606060;
   --white: #f1f1f1;
@@ -123,7 +166,6 @@
   --primary: var(--pink-600);
   --primary-dark: var(--pink-700);
   --primary-darker: var(--pink-900);
-
   --primary-lighter-dark-mode: var(--pink-dark-mode-100);
   --primary-light-dark-mode: var(--pink-dark-mode-300);
   --primary-dark-mode: var(--pink-dark-mode-600);
@@ -135,7 +177,6 @@
   --secondary: var(--stone-500);
   --secondary-dark: var(--stone-700);
   --secondary-darker: var(--stone-900);
-
   --secondary-lighter-dark-mode: var(--stone-dark-mode-100);
   --secondary-light-dark-mode: var(--stone-dark-mode-300);
   --secondary-dark-mode: var(--stone-dark-mode-500);
@@ -146,8 +187,14 @@
   --warning: var(--yellow-300);
   --success: var(--green-400);
   --success-dark: var(--green-500);
-  --fill-dark: var(--black);
+  --fill: var(--black);
   --info: var(--blue-400);
+  --error-dark-mode: var(--red-dark-mode-400);
+  --warning-dark-mode: var(--yellow-dark-mode-300);
+  --success-dark-mode: var(--green-dark-mode-400);
+  --success-dark-dark-mode: var(--green-dark-mode-500);
+  --fill-dark-mode: var(--white);
+  --info-dark-mode: var(--blue-dark-mode-400);
 
   --text: var(--black);
   --text-secondary: var(--black-secondary);
@@ -156,17 +203,15 @@
   --text-secondary-dark-mode: var(--white-secondary);
 
   --selection-background: var(--primary);
-  --selection-text: var(--secondary-lighter);
-
+  --selection-text: var(--saturated-white);
   --selection-background-dark-mode: var(--primary-dark-mode);
-  --selection-text-dark-mode: var(--secondary-lighter-dark-mode);
+  --selection-text-dark-mode: var(--saturated-white);
 
   --background-lighter: var(--stone-50);
   --background-light: var(--stone-100);
   --background: var(--stone-200);
   --background-dark: var(--stone-300);
   --background-darker: var(--stone-400);
-
   --background-lighter-dark-mode: var(--stone-dark-mode-400);
   --background-light-dark-mode: var(--stone-dark-mode-300);
   --background-dark-mode: var(--stone-dark-mode-200);
@@ -184,6 +229,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --text: var(--text-dark-mode);
+    --text-secondary: var(--text-secondary-dark-mode);
 
     --background-lighter: var(--background-lighter-dark-mode);
     --background-light: var(--background-light-dark-mode);
@@ -191,7 +237,12 @@
     --background-dark: var(--background-dark-dark-mode);
     --background-darker: var(--background-darker-dark-mode);
 
-    --fill-dark: var(--white);
+    --error: var(--error-dark-mode);
+    --warning: var(--warning-dark-mode);
+    --success: var(--success-dark-mode);
+    --success-dark: var(--success-dark-dark-mode);
+    --fill: var(--fill-dark-mode);
+    --info: var(--info-dark-mode);
 
     --selection-background: var(--selection-background-dark-mode);
     --selection-text: var(--selection-text-dark-mode);

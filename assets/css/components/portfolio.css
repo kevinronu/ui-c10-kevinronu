@@ -53,7 +53,7 @@
 .portfolio-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--fill-dark);
+  fill: var(--fill);
 }
 
 .portfolio-summary__card-content {
