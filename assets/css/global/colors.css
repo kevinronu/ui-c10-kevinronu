@@ -37,6 +37,18 @@
   --pink-700: #be185d;
   --pink-800: #9d174d;
   --pink-900: #831843;
+
+  --pink-dark-mode-50: #3f0d23;
+  --pink-dark-mode-100: #57103c;
+  --pink-dark-mode-200: #6d1855;
+  --pink-dark-mode-300: #83256f;
+  --pink-dark-mode-400: #993e89;
+  --pink-dark-mode-500: #af579f;
+  --pink-dark-mode-600: #c46fb2;
+  --pink-dark-mode-700: #da88c4;
+  --pink-dark-mode-800: #f0a1d8;
+  --pink-dark-mode-900: #f8b9e8;
+
   --stone-50: #fafaf9;
   --stone-100: #f5f5f4;
   --stone-200: #e1e1e0;
@@ -47,6 +59,18 @@
   --stone-700: #393939;
   --stone-800: #282828;
   --stone-900: #171716;
+
+  --stone-dark-mode-50: #282828;
+  --stone-dark-mode-100: #393939;
+  --stone-dark-mode-200: #4c4c4c;
+  --stone-dark-mode-300: #606060;
+  --stone-dark-mode-400: #737373;
+  --stone-dark-mode-500: #868686;
+  --stone-dark-mode-600: #999999;
+  --stone-dark-mode-700: #b8b8b7;
+  --stone-dark-mode-800: #cccccc;
+  --stone-dark-mode-900: #e1e1e0;
+
   --red-50: #fef2f2;
   --red-100: #fee2e2;
   --red-200: #fecaca;
@@ -98,6 +122,13 @@
   --primary: var(--pink-600);
   --primary-dark: var(--pink-700);
   --primary-darker: var(--pink-900);
+
+  --primary-dark-mode-lighter: var(--pink-dark-mode-100);
+  --primary-dark-mode-light: var(--pink-dark-mode-300);
+  --primary-dark-mode: var(--pink-dark-mode-600);
+  --primary-dark-mode-dark: var(--pink-dark-mode-700);
+  --primary-dark-mode-darker: var(--pink-dark-mode-900);
+
   --secondary-lighter: var(--stone-100);
   --secondary-light: var(--stone-300);
   --secondary: var(--stone-500);
@@ -151,5 +182,11 @@
     --fill-dark: var(--white);
     --selection-background: var(--selection-background-dark-mode);
     --selection-text: var(--selection-text-dark-mode);
+
+    --primary-lighter: var(--primary-dark-mode-lighter);
+    --primary-light: var(--primary-dark-mode-light);
+    --primary: var(--primary-dark-mode-light);
+    --primary-dark: var(--primary-dark-mode-dark);
+    --primary-darker: var(--primary-dark-mode-darker);
   }
 }
