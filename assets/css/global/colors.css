@@ -195,7 +195,7 @@
 
     --primary-lighter: var(--primary-lighter-dark-mode);
     --primary-light: var(--primary-light-dark-mode);
-    --primary: var(--primary-light-dark-mode);
+    --primary: var(--primary-dark-mode);
     --primary-dark: var(--primary-dark-dark-mode);
     --primary-darker: var(--primary-darker-dark-mode);
   }
