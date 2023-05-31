@@ -134,6 +134,13 @@
   --secondary: var(--stone-500);
   --secondary-dark: var(--stone-700);
   --secondary-darker: var(--stone-900);
+
+  --secondary-dark-mode-lighter: var(--stone-dark-mode-100);
+  --secondary-dark-mode-light: var(--stone-dark-mode-300);
+  --secondary-dark-mode: var(--stone-dark-mode-500);
+  --secondary-dark-mode-dark: var(--stone-dark-mode-700);
+  --secondary-dark-mode-darker: var(--stone-dark-mode-900);
+
   --error: var(--red-400);
   --warning: var(--yellow-300);
   --success: var(--green-400);
@@ -148,8 +155,8 @@
   --selection-background: var(--primary);
   --selection-text: var(--secondary-lighter);
 
-  --selection-background-dark-mode: var(--primary-light);
-  --selection-text-dark-mode: var(--secondary-darker);
+  --selection-background-dark-mode: var(--primary-dark-mode);
+  --selection-text-dark-mode: var(--secondary-dark-mode-lighter);
 
   --background-lighter: var(--stone-50);
   --background-light: var(--stone-100);
@@ -157,11 +164,11 @@
   --background-dark: var(--stone-300);
   --background-darker: var(--stone-400);
 
-  --background-dark-mode-lighter: var(--stone-500);
-  --background-dark-mode-light: var(--stone-600);
-  --background-dark-mode: var(--stone-700);
-  --background-dark-mode-dark: var(--stone-800);
-  --background-dark-mode-darker: var(--stone-900);
+  --background-dark-mode-lighter: var(--stone-dark-mode-400);
+  --background-dark-mode-light: var(--stone-dark-mode-300);
+  --background-dark-mode: var(--stone-dark-mode-200);
+  --background-dark-mode-dark: var(--stone-dark-mode-100);
+  --background-dark-mode-darker: var(--stone-dark-mode-50);
 }
 
 @media (prefers-contrast: high) {
@@ -174,12 +181,15 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --text: var(--text-dark-mode);
+
     --background-lighter: var(--background-dark-mode-lighter);
     --background-light: var(--background-dark-mode-light);
     --background: var(--background-dark-mode);
     --background-dark: var(--background-dark-mode-dark);
     --background-darker: var(--background-dark-mode-darker);
+
     --fill-dark: var(--white);
+
     --selection-background: var(--selection-background-dark-mode);
     --selection-text: var(--selection-text-dark-mode);
 
