@@ -111,9 +111,10 @@
   --blue-700: #1d4ed8;
   --blue-800: #1e40af;
   --blue-900: #1e3a8a;
-  --black: #171717;
-  --white: #f0f0f0;
-  /* --white: #ececec; */
+  --black: #0f0f0f;
+  --black-secondary: #606060;
+  --white: #f1f1f1;
+  --white-secondary: #aaaaaa;
   --saturated-black: #000000;
   --saturated-white: #ffffff;
 
@@ -149,8 +150,10 @@
   --info: var(--blue-400);
 
   --text: var(--black);
+  --text-secondary: var(--black-secondary);
   --text-high-contrast: var(--saturated-black);
   --text-dark-mode: var(--white);
+  --text-secondary-dark-mode: var(--white-secondary);
 
   --selection-background: var(--primary);
   --selection-text: var(--secondary-lighter);
