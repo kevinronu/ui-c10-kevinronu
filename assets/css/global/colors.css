@@ -123,11 +123,11 @@
   --primary-dark: var(--pink-700);
   --primary-darker: var(--pink-900);
 
-  --primary-dark-mode-lighter: var(--pink-dark-mode-100);
-  --primary-dark-mode-light: var(--pink-dark-mode-300);
+  --primary-lighter-dark-mode: var(--pink-dark-mode-100);
+  --primary-light-dark-mode: var(--pink-dark-mode-300);
   --primary-dark-mode: var(--pink-dark-mode-600);
-  --primary-dark-mode-dark: var(--pink-dark-mode-700);
-  --primary-dark-mode-darker: var(--pink-dark-mode-900);
+  --primary-dark-dark-mode: var(--pink-dark-mode-700);
+  --primary-darker-dark-mode: var(--pink-dark-mode-900);
 
   --secondary-lighter: var(--stone-100);
   --secondary-light: var(--stone-300);
@@ -135,11 +135,11 @@
   --secondary-dark: var(--stone-700);
   --secondary-darker: var(--stone-900);
 
-  --secondary-dark-mode-lighter: var(--stone-dark-mode-100);
-  --secondary-dark-mode-light: var(--stone-dark-mode-300);
+  --secondary-lighter-dark-mode: var(--stone-dark-mode-100);
+  --secondary-light-dark-mode: var(--stone-dark-mode-300);
   --secondary-dark-mode: var(--stone-dark-mode-500);
-  --secondary-dark-mode-dark: var(--stone-dark-mode-700);
-  --secondary-dark-mode-darker: var(--stone-dark-mode-900);
+  --secondary-dark-dark-mode: var(--stone-dark-mode-700);
+  --secondary-darker-dark-mode: var(--stone-dark-mode-900);
 
   --error: var(--red-400);
   --warning: var(--yellow-300);
@@ -156,7 +156,7 @@
   --selection-text: var(--secondary-lighter);
 
   --selection-background-dark-mode: var(--primary-dark-mode);
-  --selection-text-dark-mode: var(--secondary-dark-mode-lighter);
+  --selection-text-dark-mode: var(--secondary-lighter-dark-mode);
 
   --background-lighter: var(--stone-50);
   --background-light: var(--stone-100);
@@ -164,11 +164,11 @@
   --background-dark: var(--stone-300);
   --background-darker: var(--stone-400);
 
-  --background-dark-mode-lighter: var(--stone-dark-mode-400);
-  --background-dark-mode-light: var(--stone-dark-mode-300);
+  --background-lighter-dark-mode: var(--stone-dark-mode-400);
+  --background-light-dark-mode: var(--stone-dark-mode-300);
   --background-dark-mode: var(--stone-dark-mode-200);
-  --background-dark-mode-dark: var(--stone-dark-mode-100);
-  --background-dark-mode-darker: var(--stone-dark-mode-50);
+  --background-dark-dark-mode: var(--stone-dark-mode-100);
+  --background-darker-dark-mode: var(--stone-dark-mode-50);
 }
 
 @media (prefers-contrast: high) {
@@ -182,21 +182,21 @@
   :root {
     --text: var(--text-dark-mode);
 
-    --background-lighter: var(--background-dark-mode-lighter);
-    --background-light: var(--background-dark-mode-light);
+    --background-lighter: var(--background-lighter-dark-mode);
+    --background-light: var(--background-light-dark-mode);
     --background: var(--background-dark-mode);
-    --background-dark: var(--background-dark-mode-dark);
-    --background-darker: var(--background-dark-mode-darker);
+    --background-dark: var(--background-dark-dark-mode);
+    --background-darker: var(--background-darker-dark-mode);
 
     --fill-dark: var(--white);
 
     --selection-background: var(--selection-background-dark-mode);
     --selection-text: var(--selection-text-dark-mode);
 
-    --primary-lighter: var(--primary-dark-mode-lighter);
-    --primary-light: var(--primary-dark-mode-light);
-    --primary: var(--primary-dark-mode-light);
-    --primary-dark: var(--primary-dark-mode-dark);
-    --primary-darker: var(--primary-dark-mode-darker);
+    --primary-lighter: var(--primary-lighter-dark-mode);
+    --primary-light: var(--primary-light-dark-mode);
+    --primary: var(--primary-light-dark-mode);
+    --primary-dark: var(--primary-dark-dark-mode);
+    --primary-darker: var(--primary-darker-dark-mode);
   }
 }
