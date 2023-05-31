@@ -42,7 +42,6 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: var(--text);
-  background-color: var(--background);
   font-family: var(--font-primary);
   /* hyphens: auto; */
   font-smooth: always;

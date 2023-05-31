@@ -74,14 +74,15 @@ svg {
 
 body {
   min-height: 100vh;
+  background-color: var(--background);
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   -webkit-tap-highlight-color: var(--primary);
 }
 
 ::selection {
-  background-color: var(--primary);
-  color: var(--secondary-lighter);
+  background-color: var(--selection-background);
+  color: var(--selection-text);
 }
 
 @media (prefers-reduced-motion: reduce) {

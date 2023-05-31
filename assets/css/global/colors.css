@@ -109,15 +109,22 @@
   --success-dark: var(--green-500);
   --fill-dark: var(--black);
   --info: var(--blue-400);
+
   --text: var(--black);
   --text-high-contrast: var(--saturated-black);
   --text-dark-mode: var(--white);
 
-  --background-lighter: var(--white);
-  --background-light: var(--gray-50);
-  --background: var(--stone-100);
-  --background-dark: var(--stone-200);
-  --background-darker: var(--stone-300);
+  --selection-background: var(--primary);
+  --selection-text: var(--secondary-lighter);
+
+  --selection-background-dark-mode: var(--primary-light);
+  --selection-text-dark-mode: var(--secondary-darker);
+
+  --background-lighter: var(--stone-50);
+  --background-light: var(--stone-100);
+  --background: var(--stone-200);
+  --background-dark: var(--stone-300);
+  --background-darker: var(--stone-400);
 
   --background-dark-mode-lighter: var(--stone-500);
   --background-dark-mode-light: var(--stone-600);
@@ -142,5 +149,7 @@
     --background-dark: var(--background-dark-mode-dark);
     --background-darker: var(--background-dark-mode-darker);
     --fill-dark: var(--white);
+    --selection-background: var(--selection-background-dark-mode);
+    --selection-text: var(--selection-text-dark-mode);
   }
 }

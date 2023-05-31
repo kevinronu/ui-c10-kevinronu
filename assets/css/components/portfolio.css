@@ -10,7 +10,7 @@
 }
 
 .portfolio-summary__card {
-  background-color: var(--background-lighter);
+  background-color: var(--background-light);
   padding: 1.5rem;
   position: relative;
 }
