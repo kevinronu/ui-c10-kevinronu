@@ -24,9 +24,11 @@
   max-width: 270px;
 }
 
-#calencli-image {
-  max-height: 327px;
-  max-width: 100%;
+.calencli-image {
+  max-width: 500px;
+}
+
+.calencli-image img {
   object-fit: cover;
   border-radius: 0.5rem;
 }
@@ -96,7 +98,7 @@
     max-width: 270px;
   }
 
-  #calencli-image {
+  /* #calencli-image {
     max-height: 311px;
-  }
+  } */
 }
