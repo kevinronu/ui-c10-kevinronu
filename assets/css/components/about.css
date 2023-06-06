@@ -12,9 +12,7 @@
 
 .about-summary__card {
   display: flex;
-  /* flex-direction: row; */
   gap: 1rem;
-  /* padding: 1rem; */
 }
 
 .about-summary__card svg {
