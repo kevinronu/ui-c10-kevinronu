@@ -7,12 +7,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 0;
 }
 
 .pokemon-ruby-summary__content {
-  padding-left: 2rem;
-  max-width: 502px;
+  max-width: 460px;
 }
 
 .pokemon-ruby-summary__content p {
@@ -24,17 +22,13 @@
   max-width: 270px;
 }
 
-#pokemon-ruby-image {
-  max-height: 327px;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 0.5rem;
+.pokemon-ruby-image {
+  max-width: 500px;
 }
 
-.pokemon-ruby-features,
-.pokemon-ruby-team {
-  padding: 0px;
-  justify-content: center;
+.pokemon-ruby-image img {
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .pokemon-ruby-features_header,
@@ -43,11 +37,10 @@
 }
 
 .pokemon-ruby-features__section {
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .pokemon-ruby-summary__background-icon {
-  padding: 0;
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--background);
@@ -60,7 +53,7 @@
 }
 
 .pokemon-ruby-team__member {
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .pokemon-ruby-social-links {
@@ -92,11 +85,9 @@
   }
 
   .pokemon-ruby-summary__content {
-    padding-left: 0;
-    max-width: 270px;
-  }
-
-  #pokemon-ruby-image {
-    max-height: 311px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
