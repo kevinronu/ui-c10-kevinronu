@@ -7,11 +7,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 0;
 }
 
 .clin-boards-summary__content {
-  max-width: 100%;
+  max-width: 460px;
 }
 
 .clin-boards-summary__content p {
@@ -23,17 +22,13 @@
   max-width: 270px;
 }
 
-#clin-boards-image {
-  max-height: 327px;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 0.5rem;
+.clin-boards-image {
+  max-width: 500px;
 }
 
-.clin-boards-features,
-.clin-boards-team {
-  padding: 0px;
-  justify-content: center;
+.calencli-image img {
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .clin-boards-features_header,
@@ -42,11 +37,10 @@
 }
 
 .clin-boards-features__section {
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .clin-boards-summary__background-icon {
-  padding: 0;
   width: 2.5rem;
   height: 2.5rem;
   background-color: var(--background);
@@ -59,7 +53,7 @@
 }
 
 .clin-boards-team__member {
-  max-width: 320px;
+  max-width: 300px;
 }
 
 .clin-boards-social-links {
@@ -91,10 +85,9 @@
   }
 
   .clin-boards-summary__content {
-    padding: 0 0.5rem;
-  }
-
-  #clin-boards-image {
-    max-height: 311px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
