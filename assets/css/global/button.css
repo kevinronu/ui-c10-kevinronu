@@ -1,18 +1,18 @@
 /* button */
 .button {
-  border: none;
-  border-radius: 0.5rem;
-  font-size: 1em;
-  line-height: 1rem;
-  font-weight: 500;
-  text-transform: capitalize;
-  padding: 0.75rem 1rem;
-  cursor: pointer;
-
   display: flex;
   gap: 0.35rem;
   justify-content: center;
   align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+  width: 100%;
+  /* text-transform: capitalize; */
+  /* filter: drop-shadow(var(--drop-shadow-sm)); */
 }
 
 .button--sm {
@@ -22,23 +22,22 @@
 
 .button--lg {
   font-size: 1.125em;
-  /* line-height: 1.125rem; */
   padding: 0.875rem 1.5rem;
 }
 
 /* button default */
 
 .button--default {
-  background-color: var(--background-darker);
+  background-color: var(--secondary-light);
   color: var(--text);
 }
 
 .button--default:hover {
-  background-color: var(--gray-400);
+  background-color: var(--secondary);
 }
 
 .button--default:active {
-  background-color: var(--gray-500);
+  background-color: var(--secondary-dark);
 }
 
 .button--default:focus {
@@ -56,7 +55,7 @@
 
 .button--primary {
   background-color: var(--primary);
-  color: var(--white);
+  color: var(--saturated-white);
 }
 
 .button--primary:hover {
@@ -68,7 +67,7 @@
 }
 
 .button--primary:focus {
-  outline: 3px solid var(--info);
+  outline: 0.1875rem solid var(--info);
   outline-offset: 1px;
 }
 
@@ -108,7 +107,7 @@
 
 .button--secondary {
   background-color: var(--secondary);
-  color: var(--white);
+  color: var(--saturated-white);
 }
 
 .button--secondary:hover {
