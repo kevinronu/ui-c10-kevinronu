@@ -27,6 +27,16 @@
   --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
+  --gray-dark-mode-50: #18191a;
+  --gray-dark-mode-100: #1f2022;
+  --gray-dark-mode-200: #2b2d30;
+  --gray-dark-mode-300: #3e4146;
+  --gray-dark-mode-400: #646a73;
+  --gray-dark-mode-500: #949ca8;
+  --gray-dark-mode-600: #bdc3cc;
+  --gray-dark-mode-700: #d6d9df;
+  --gray-dark-mode-800: #e8e9ed;
+  --gray-dark-mode-900: #f0f1f3;
 
   --pink-50: #fdf2f8;
   --pink-100: #fce7f3;
@@ -143,16 +153,16 @@
   --blue-700: #1d4ed8;
   --blue-800: #1e40af;
   --blue-900: #1e3a8a;
-  --blue-dark-mode-50: #0e1621;
-  --blue-dark-mode-100: #1c2c42;
-  --blue-dark-mode-200: #2a425e;
-  --blue-dark-mode-300: #386778;
-  --blue-dark-mode-400: #467e92;
-  --blue-dark-mode-500: #5484ac;
-  --blue-dark-mode-600: #6289c5;
-  --blue-dark-mode-700: #709fd7;
-  --blue-dark-mode-800: #7fb5e8;
-  --blue-dark-mode-900: #8dbafd;
+  --blue-dark-mode-50: #0c121b;
+  --blue-dark-mode-100: #18253a;
+  --blue-dark-mode-200: #243c58;
+  --blue-dark-mode-300: #304976;
+  --blue-dark-mode-400: #3c5e94;
+  --blue-dark-mode-500: #4877b2;
+  --blue-dark-mode-600: #5490d0;
+  --blue-dark-mode-700: #60a8ee;
+  --blue-dark-mode-800: #6cc1fd;
+  --blue-dark-mode-900: #78dafb;
 
   --black: #0f0f0f;
   --black-secondary: #606060;
@@ -187,19 +197,37 @@
   --warning: var(--yellow-300);
   --success: var(--green-400);
   --success-dark: var(--green-500);
-  --fill: var(--black);
+  --fill: var(--gray-300);
+  --fill-dark: var(--gray-500);
+  --fill-darker: var(--gray-700);
+  --stroke: var(--stone-600);
+  --stroke-dark: var(--stone-700);
+  --stroke-darker: var(--stone-900);
+  --border: var(--gray-300);
   --info: var(--blue-400);
   --error-dark-mode: var(--red-dark-mode-400);
   --warning-dark-mode: var(--yellow-dark-mode-300);
   --success-dark-mode: var(--green-dark-mode-400);
   --success-dark-dark-mode: var(--green-dark-mode-500);
-  --fill-dark-mode: var(--white);
+  --fill-dark-mode: var(--stone-dark-mode-300);
+  --fill-dark-dark-mode: var(--stone-dark-mode-500);
+  --fill-darker-dark-mode: var(--stone-dark-mode-700);
+  --stroke-dark-mode: var(--stone-dark-mode-600);
+  --stroke-dark-dark-mode: var(--stone-dark-mode-700);
+  --stroke-darker-dark-mode: var(--stone-dark-mode-900);
+  --border-dark-mode: var(--gray-dark-mode-400);
   --info-dark-mode: var(--blue-dark-mode-400);
 
-  --text: var(--black);
+  --text: var(--gray-700);
+  --text-light: var(--gray-300);
+  --text-light-plus: var(--gray-400);
+  --text-lighter: var(--gray-500);
   --text-secondary: var(--black-secondary);
   --text-high-contrast: var(--saturated-black);
-  --text-dark-mode: var(--white);
+  --text-dark-mode: var(--gray-dark-mode-700);
+  --text-light-dark-mode: var(--gray-dark-mode-400);
+  --text-light-plus-dark-mode: var(--gray-dark-mode-500);
+  --text-lighter-dark-mode: var(--gray-dark-mode-600);
   --text-secondary-dark-mode: var(--white-secondary);
 
   --selection-background: var(--primary);
@@ -230,6 +258,9 @@
   :root {
     --text: var(--text-dark-mode);
     --text-secondary: var(--text-secondary-dark-mode);
+    --text-light: var(--text-light-dark-mode);
+    --text-light-plus: var(--text-light-plus-dark-mode);
+    --text-lighter: var(--text-lighter-dark-mode);
 
     --background-lighter: var(--background-lighter-dark-mode);
     --background-light: var(--background-light-dark-mode);
@@ -242,6 +273,12 @@
     --success: var(--success-dark-mode);
     --success-dark: var(--success-dark-dark-mode);
     --fill: var(--fill-dark-mode);
+    --fill-dark: var(--fill-dark-dark-mode);
+    --fill-darker: var(--fill-darker-dark-mode);
+    --stroke: var(--stroke-dark-mode);
+    --stroke-dark: var(--stroke-dark-dark-mode);
+    --stroke-darker: var(--stroke-darker-dark-mode);
+    --border: var(--border-dark-mode);
     --info: var(--info-dark-mode);
 
     --selection-background: var(--selection-background-dark-mode);
