@@ -50,8 +50,6 @@
 }
 
 @media only screen and (max-width: 430px) {
-  /* agregar clases exclusivas para viewports de 430x de screem */
-
   .header {
     position: sticky;
     top: 0;
@@ -99,14 +97,11 @@
     position: absolute;
     top: 0.3rem;
     right: 0.75rem;
-
-    color: var(--background-dark-mode-darker);
     transition: opacity 1s linear;
   }
 
   #menu-mobile:not(:checked) ~ * #toggle-close,
   #menu-mobile:checked ~ * #toggle-open {
-    /* display: none; */
     opacity: 0;
     animation: spin 1s linear;
   }
@@ -130,9 +125,9 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   #toggle-open,
   #toggle-close {
     color: var(--background-lighter);
   }
-}
+} */

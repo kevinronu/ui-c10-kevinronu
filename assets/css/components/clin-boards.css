@@ -49,7 +49,6 @@
 .clin-boards-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--fill);
 }
 
 .clin-boards-team__member {

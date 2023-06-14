@@ -31,7 +31,6 @@
 .portfolio-summary__icons svg {
   width: 1.125rem;
   height: 1.125rem;
-  fill: var(--primary);
 }
 
 .portfolio-summary__icon-group {
@@ -53,7 +52,6 @@
 .portfolio-summary__background-icon svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--fill);
 }
 
 .portfolio-summary__card-content {

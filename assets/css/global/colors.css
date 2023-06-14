@@ -225,9 +225,9 @@
   --text-secondary: var(--black-secondary);
   --text-high-contrast: var(--saturated-black);
   --text-dark-mode: var(--gray-dark-mode-700);
-  --text-light-dark-mode: var(--gray-dark-mode-400);
-  --text-light-plus-dark-mode: var(--gray-dark-mode-500);
-  --text-lighter-dark-mode: var(--gray-dark-mode-600);
+  --text-light-dark-mode: var(--gray-dark-mode-500);
+  --text-light-plus-dark-mode: var(--gray-dark-mode-700);
+  --text-lighter-dark-mode: var(--gray-dark-mode-700);
   --text-secondary-dark-mode: var(--white-secondary);
 
   --selection-background: var(--primary);
