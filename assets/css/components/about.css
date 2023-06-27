@@ -19,11 +19,12 @@
   width: 2rem;
   height: 2rem;
   fill: var(--success);
+  display: flex;
+  place-items: center;
 }
 
 .about-summary__card svg {
-  width: 2rem;
-  height: 2rem;
+  width: 1.625rem;
   fill: var(--success);
 }
 
