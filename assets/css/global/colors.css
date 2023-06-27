@@ -436,5 +436,11 @@
     --primary: var(--primary-dark-mode);
     --primary-dark: var(--primary-dark-dark-mode);
     --primary-darker: var(--primary-darker-dark-mode);
+
+    --secondary-lighter: var(--secondary-lighter-dark-mode);
+    --secondary-light: var(--secondary-light-dark-mode);
+    --secondary: var(--secondary-dark-mode);
+    --secondary-dark: var(--secondary-dark-dark-mode);
+    --secondary-darker: var(--secondary-darker-dark-mode);
   }
 }
