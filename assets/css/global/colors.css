@@ -216,6 +216,16 @@
   --indigo-700: #4338ca;
   --indigo-800: #3730a3;
   --indigo-900: #312e81;
+  --indigo-dark-mode-50: #0d1223;
+  --indigo-dark-mode-100: #1f2345;
+  --indigo-dark-mode-200: #353b6f;
+  --indigo-dark-mode-300: #4d568d;
+  --indigo-dark-mode-400: #6871a8;
+  --indigo-dark-mode-500: #7f8add;
+  --indigo-dark-mode-600: #97a4f8;
+  --indigo-dark-mode-700: #aebcfc;
+  --indigo-dark-mode-800: #c2d1ff;
+  --indigo-dark-mode-900: #d1ddff;
 
   --purple-50: #f5f3ff;
   --purple-100: #ede9fe;
@@ -227,6 +237,16 @@
   --purple-700: #6d28d9;
   --purple-800: #5b21b6;
   --purple-900: #4c1d95;
+  --purple-dark-mode-50: #100f1b;
+  --purple-dark-mode-100: #221f3a;
+  --purple-dark-mode-200: #3b3665;
+  --purple-dark-mode-300: #544e8e;
+  --purple-dark-mode-400: #6e67b6;
+  --purple-dark-mode-500: #856ffa;
+  --purple-dark-mode-600: #9c85ff;
+  --purple-dark-mode-700: #b39dff;
+  --purple-dark-mode-800: #c9b7ff;
+  --purple-dark-mode-900: #dbcfff;
 
   --pink-50: #fdf2f8;
   --pink-100: #fce7f3;
@@ -259,6 +279,16 @@
   --rose-700: #be123c;
   --rose-800: #9f1239;
   --rose-900: #881337;
+  --rose-dark-mode-50: #1a0e0f;
+  --rose-dark-mode-100: #391d1f;
+  --rose-dark-mode-200: #601e28;
+  --rose-dark-mode-300: #872431;
+  --rose-dark-mode-400: #ae2b3b;
+  --rose-dark-mode-500: #d03645;
+  --rose-dark-mode-600: #ee4c53;
+  --rose-dark-mode-700: #ff6a64;
+  --rose-dark-mode-800: #ff8677;
+  --rose-dark-mode-900: #ff9c8b;
 
   --stone-50: #fafaf9;
   --stone-100: #f5f5f4;
