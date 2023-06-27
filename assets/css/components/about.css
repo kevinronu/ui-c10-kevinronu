@@ -18,7 +18,7 @@
 .about-summary__card svg {
   width: 5rem;
   height: 2rem;
-  fill: var(--success-dark);
+  fill: var(--success);
 }
 
 .about-hobbies {

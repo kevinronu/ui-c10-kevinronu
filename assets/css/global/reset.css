@@ -25,6 +25,36 @@ figure {
   object-position: center center; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -76,7 +106,12 @@ body {
   min-height: 100vh;
   background-color: var(--background);
   text-rendering: optimizeSpeed;
+  font-size: 100%;
   line-height: 1.5;
+  /* hyphens: auto; */
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: var(--primary);
 }
 
