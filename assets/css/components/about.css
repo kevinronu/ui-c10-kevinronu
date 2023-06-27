@@ -15,8 +15,14 @@
   gap: 1rem;
 }
 
+.about-summary__card-icon-container {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--success);
+}
+
 .about-summary__card svg {
-  width: 5rem;
+  width: 2rem;
   height: 2rem;
   fill: var(--success);
 }
