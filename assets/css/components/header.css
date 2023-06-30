@@ -108,7 +108,7 @@
   }
 
   #menu-mobile:checked ~ * .toggle-checkbox__first_line {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scaleX(1.05);
   }
 
   #menu-mobile:checked ~ * .toggle-checkbox__second_line {
@@ -116,6 +116,6 @@
   }
 
   #menu-mobile:checked ~ * .toggle-checkbox__last_line {
-    transform: rotate(45deg);
+    transform: rotate(45deg) scaleX(1.05);
   }
 }
