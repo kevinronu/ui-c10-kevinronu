@@ -20,10 +20,6 @@
   text-transform: uppercase;
 }
 
-.mono {
-  font-family: "Sourcer Code Pro", monospace;
-}
-
 .list-style-none {
   list-style: none;
 }
